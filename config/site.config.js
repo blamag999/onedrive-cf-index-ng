@@ -40,7 +40,7 @@ module.exports = {
   // [OPTIONAL] This is where you specify the folders that are password protected. It is an array of paths pointing to all
   // the directories in which you have .password set. Check the documentation for details.
   // This is the path relative to `baseDirectory` above, not relative to root in your Onedrive.
-  protectedRoutes: ['/Private', '/Demo/😎Another Private Folder Password 123'],
+  protectedRoutes: ['/', ''],
 
   // [OPTIONAL] Use "" here if you want to remove this email address from the nav bar.
   email: '',
@@ -58,5 +58,5 @@ module.exports = {
   // This is a day.js-style datetime format string to format datetimes in the app. Ref to
   // https://day.js.org/docs/en/display/format for detailed specification. The default value is ISO 8601 full datetime
   // without timezone and replacing T with space.
-  datetimeFormat: 'YYYY-MM-DD HH:mm:ss',
+  datetimeFormat: 'DD-MM-YYYY HH:mm:ss',
 }
